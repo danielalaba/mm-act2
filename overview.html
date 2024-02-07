@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="overview.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/brand.png">
+    <title>pc.builders.cvt</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">pc.builders.cvt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="partlist.html">PC Components</a></li>
+                            <li><a class="dropdown-item" href="#">Build-A-PC (coming soon)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary ms-2">
+                    <i class="bi bi-cart"></i>
+                    <img src="images/shopping-cart.png" alt="...">
+                    <span class="badge bg-danger">3</span>
+                </button>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropdown2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                        </a>
+                        <ul class="dropdown-menu menu2">
+                            <li>
+                                <a class="dropdown-item" href="index.html">
+                                    <div class="chk-out">
+                                        <img src="images/mobo1.png" class="card-img-top" alt="...">
+                                        <div class="chk-out-text">
+                                            <h5 class="card-title">NZXT N7 Z790</h5>
+                                            <p class="card-text">₱18,775.00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="partlist.html">
+                                    <div class="chk-out">
+                                        <img src="images/rtx4090.png" class="card-img-top" alt="...">
+                                        <div class="chk-out-text">
+                                            <h5 class="card-title">MSI RTX 4090</h5>
+                                            <p class="card-text">₱112,495.00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <div class="chk-out">
+                                        <img src="images/ram.png" class="card-img-top" alt="...">
+                                        <div class="chk-out-text">
+                                            <h5 class="card-title">XPG DDR5</h5>
+                                            <p class="card-text">₱11,726.00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="checkout-btn">
+                                <a href="checkout.html"><button type="button">View Cart</button></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="desc">
+            <div class="prod-img">
+                <h3 class="prod-det">PRODUCT DETAIL</h3>
+                <img src="images/mobo2.png" alt="...">
+            </div>
+            <div class="prod-txt">
+                <h3 class="prod-title">Asus Prime Z690-A</h3>
+                <h4 class="overview">QUICK OVERVIEW</h4>
+                <p class="prod-desc">Prime Z690-A offers a total of four M. 2 slots that support data-transfer speeds of
+                    up to 64 Gbps via PCIe® 4.0,
+                    enabling quicker boot-up and app load times with OS or application drives. * Actual transmission
+                    speeds will be lower
+                    than the theoretical maximum speed.</p>
+                <hr>
+                <h2 class="prod-price">₱14,995.00</h2>
+                <div class="item-count">
+                    <button type="button">-</button>
+                    <input type="text" value="1">
+                    <button type="button">+</button>
+                </div>
+                <div class="btn-add-list">
+                    <button type="button" class="cart"><img src="images/white_cart.png" alt=""> Add To Cart</button>
+                    <button type="button" class="ws-list"><img src="images/heart.png" class="hrt-icon" alt=""> Add To
+                        Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Specifications
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Support 12th Gen Intel® Series Processors</li>
+                            <li>Dual Channel Non-ECC Unbuffered DDR5, 4 DIMMs</li>
+                            <li>Direct 19+1+2 Phases VRM Design with 105A Power Stage* and Tantalum Polymer Capacitor
+                            </li>
+                            <li>DDR5 XTREME MEMORY Design with SMD DIMM and Shielded Memory Routing</li>
+                            <li>Advanced Thermal Solution with NanoCarbon Fins-Array III Heatsink, Direct-Touch Heatpipe
+                                II, and NanoCarbon Baseplate</li>
+                            <li>Intel® WIFI 6E 802.11ax 2T2R &amp BT5 with AORUS Antenna</li>
+                            <li>Audio Solution with ESS Sabre ES9118 125dB on Rear Audio​</li>
+                            <li>AQUANTIA® 10GbE BASE-T LAN</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Delivery
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <h4>Delivery Information</h4>
+                        <ul>
+                            <li>Orders are processed via email/live chat during normal office hours unless there is a
+                                problem that requires further
+                                verification by a billing specialist. It is possible we may need to call you to verify
+                                your order. We will deliver your
+                                order as soon as possible and if there is a problem we will contact you to get your
+                                order to you in a timely manner.</li>
+                            <li>Office hours are Monday thru Saturday 9AM to 6PM, Sundays 10AM to 5PM.</li>
+                            <li>When contacting us about your order please include your Full Name and Items Ordered to
+                                speed up the process. We receive
+                                a lot of orders a week and your email address and/or name alone may not quickly identify
+                                your order. To ensure that we
+                                receive your inquiry, do NOT send us email with attachments.</li>
+                            <li>Delivery fee applies. Contact Us.</li>
+                            <li>If you have not received your order, please contact us with your name and items ordered.
+                            </li>
+                        </ul>
+                        <h4>Shipping</h4>
+                        <ul>
+                            <li>Item pick up from branch is to be arranged and shouldered by the customer.</li>
+                            <li>Freight collect. Buyer shoulders shipping cost for orders and returns.</li>
+                            <li>Goods travels at buyer’s risk. Our responsibility ceases when merchandise is handed to
+                                the courier.</li>
+                            <li>Bank deposits or money transfer on items for shipment. Items are released only after we
+                                verify the deposit.</li>
+                            <li>Contact Us for money transfer / bank account details.</li>
+                            <li>Shipping fees are not refundable under any circumstance.</li>
+                            <li>Other shipping methods are available upon request, however, should you select uninsured
+                                shipping we will not be held
+                                responsible for loss or damage of your purchase.</li>
+                            <li>International Shipping Information is available upon request.</li>
+                            <li>Dynaquest reserves the right to cancel and refund the order incase complications arise
+                                regarding stock availability.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Warranty
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Item compatibility is buyer’s responsibility.</li>
+                            <li>Check all items upon receipt.</li>
+                            <li>NO Cash Refund.</li>
+                            <li>All items/claims for warranty are carry-in.</li>
+                            <li>Mishandled, improperly integrated, physical damage (burnt, dent, cracked) voids the
+                                warranty.</li>
+                            <li>Tampered warranty sticker voids the warranty.</li>
+                            <li>Overclocking may void the warranty.</li>
+                            <li>Items for warranty must be complete with original contents/packaging and accompanied by
+                                warranty receipt.</li>
+                            <li>Defective items for warranty are subject for pull out and RMA services.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/
+                bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
